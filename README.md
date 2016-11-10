@@ -25,7 +25,7 @@ gulp
 
 1. [browser-sync](https://github.com/browsersync/browser-sync) lauches the server for crossbrowser testing.
 2. [gulp-jade](https://github.com/phated/gulp-jade) compile your jade files.
-3. [gulp-data](https://github.com/colynb/gulp-data) passes the data to jade. this project uses JSON as the data source, however you can generate data objects from a variety of sources: json, front-matter, database, etc... see gulp-data [README](https://github.com/colynb/gulp-data)
+3. [gulp-data](https://github.com/colynb/gulp-data) passes the data to jade. this project uses JSON as the data source.
 4. [gulp-sass](https://github.com/dlmanning/gulp-sass) compile your sass files.
 5. [gulp-plumber](https://github.com/floatdrop/gulp-plumber) Prevent pipe breaking caused by errors from gulp plugins.
 6. [gulp-notify](https://github.com/mikaelbr/gulp-notify) notification plugin for gulp.
