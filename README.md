@@ -11,7 +11,7 @@ git clone https://github.com/piyushkalasariya/gulp-browsersync-jade-sass-starter
 
 Or, install it by using `node.js` command
 ```
-npm install gulp-browsersync-jade-sass-starter@1.0.1
+npm install gulp-browsersync-jade-sass-starter@1.0.3
 ```
 
 ### How to run
