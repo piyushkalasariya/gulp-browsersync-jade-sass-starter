@@ -1,0 +1,105 @@
+/*	FONTS
+------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+/*	TYPOGRAPHY
+–––––––––––––––––––––––––––*/
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #e7e7e7;
+}
+
+/*	Normalize 
+---------------------------*/
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+/*	Some common variables
+-------------------------- */
+// responsive break points.
+$break-extra-small: 320px;
+$break-small: 480px;
+$break-medium: 960px;
+$break-large: 1200px;
+
+/*	Some common mixins
+-------------------------- */
+// -- Generic Transition
+@mixin transition($transition...) {
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    -webkit-transition: $transition;
+    transition: $transition;
+} 
+//  Example usage:- @include transition([transition-property] [transition-duration] [transition-timing] [transition-delay]);
+
+// -- Generic Transform
+@mixin transform($transforms) {
+    -moz-transform: $transforms;
+    -o-transform: $transforms;
+    -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+    transform: $transforms;
+} 
+//  Example usage:- @include transform([transform-style] [transform-origin]);
+
+// -- Generic Animation
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }  
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }  
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+//  Example usage:-- @include keyframes(slide-down) {
+// 					  0% { opacity: 1; }
+// 					  90% { opacity: 0; }
+// 					}
+// 					.element {
+// 					  @include animation('slide-down 5s 3');
+// 					}
+
+// -- Visually hidden like display:none;
+%visuallyhidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+//  Example usage:- @extend %visuallyhidden;
+
+/*	CSS
+-------------------------- */
+h1 {
+    text-align: center;
+    color: #999;
+}
+
+p {
+    text-align: center;
+    color: #999;
+}

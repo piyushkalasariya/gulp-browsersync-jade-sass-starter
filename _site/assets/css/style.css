@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*	FONTS
+------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+/*	TYPOGRAPHY
+–––––––––––––––––––––––––––*/
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #e7e7e7;
+}
+
+/*	Normalize 
+---------------------------*/
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+/*	CSS
+-------------------------- */
+
+h1 {
+    text-align: center;
+    color: #999;
+}
+
+p {
+    text-align: center;
+    color: #999;
+}
