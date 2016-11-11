@@ -1,5 +1,8 @@
 # Gulp - BrowserSync, Jade, Sass starter templates.
 
+[![npm version](https://badge.fury.io/js/gulp-browsersync-jade-sass-starter.svg)](https://badge.fury.io/js/gulp-browsersync-jade-sass-starter)
+[![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/piyushkalasariya/gulp-browsersync-jade-sass-starter/blob/master/LICENSE)
+
 This is a Jade and Sass starter project using gulp for task automation. 
 
 ### How to install
@@ -11,7 +14,7 @@ git clone https://github.com/piyushkalasariya/gulp-browsersync-jade-sass-starter
 
 Or, install it by using `node.js` command
 ```
-npm install gulp-browsersync-jade-sass-starter@1.0.3
+npm install gulp-browsersync-jade-sass-starter@1.0.4
 ```
 
 ### How to run
