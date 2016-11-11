@@ -1,6 +1,6 @@
 {
   "name": "gulp-browsersync-jade-sass-starter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gulp sass jade starter",
   "main": "gulpfile.js",
   "scripts": {
